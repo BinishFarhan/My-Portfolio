@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Open+Sans:wght@300&display=swap');
+
+:root {
+    --primary: rgba(36, 227, 237, 0.8);
+    --secondary: rgb(13, 176, 92);
+    --shadow: 0 0px 20px 0 rgba(36, 227, 237, 0.7), 0 0px 20px 0 rgba(43, 237, 137, 0.7);
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background: linear-gradient(to right, var(--secondary), var(--primary)),
+        url(./images/background-imges/bkg-1.jpg) no-repeat center center / cover;
+}
+
+.nav-1 {
+    background-image: linear-gradient(to right, var(--secondary), var(--primary));
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.flex-item > a > i {
+    color: white;
+}
+
+.nav-btn {
+    background-image: linear-gradient(to right, var(--primary), var(--secondary));
+    box-shadow: var(--shadow)
+}
+
+.nav-search:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: var(--shadow)
+}
+
+.header-text {
+    margin-top: 220px !important;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+    color: white;
+    
+
+}
+
+.header-text > h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.header-text > h2 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.header-text > h2 > span {
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.header-text > p{
+    font-size: 30px;
+}
+
+@media (max-width : 480px) {
+    .flex {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        padding: 0px !important;
+    }
+
+    .flex-item {
+        margin: 0px;
+        padding: 0px;
+    }
+    .header-text {
+        margin-top: 150px !important;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 2px;
+        color: white;
+    }
+    
+    .header-text > h1 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    .header-text > h2 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    .header-text > h2 > span {
+        font-size: 60px;
+        font-weight: bolder;
+    }
+    .header-text > p{
+        font-size: 20px;
+    }
+}
+
+@media (min-width : 481px) and (max-width: 767px){
+    .header-text {
+        margin-top: 180px !important;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 2px;
+        color: white;
+    }
+    
+    .header-text > h1 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+    
+    .header-text > h2 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+    
+    .header-text > h2 > span {
+        font-size: 70px;
+        font-weight: bolder;
+    }
+    .header-text > p{
+        font-size: 30px;
+    }
+}
