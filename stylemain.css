@@ -122,15 +122,18 @@
         margin-top: 10px !important;
         padding-top: 0px !important;
     }
-    .main-interests{
+
+    .main-interests {
         margin-top: 40px;
         text-align: center;
 
     }
-    .main-icon{
+
+    .main-icon {
         margin-top: 30px;
     }
-    .icon-row{
+
+    .icon-row {
         margin-left: 20px;
     }
 }
@@ -161,18 +164,22 @@
     .header-text>p {
         font-size: 30px;
     }
+
     .main-about {
         margin-top: 10px !important;
         padding-top: 0px !important;
     }
-    .main-interests{
+
+    .main-interests {
         margin-top: 40px;
 
     }
-    .main-icon{
+
+    .main-icon {
         margin-top: 30px;
     }
 }
+
 @media (min-width : 768px) and (max-width: 991px) {
     .header-text {
         margin-top: 180px !important;
@@ -180,32 +187,37 @@
         margin-left: 2px;
         color: white;
     }
+
     .main-about {
         margin-top: 40px !important;
         margin-right: -20px !important;
         padding: 0px !important;
-        
+
     }
-    .shadow > img{
-    width: 300px !important;
-    margin: 0px;
-    margin-left: -50px !important;
-    padding: 0px;
+
+    .shadow>img {
+        width: 300px !important;
+        margin: 0px;
+        margin-left: -50px !important;
+        padding: 0px;
     }
+
     .main-btn {
         width: 190px;
         height: 50px;
         align-content: center !important;
 
     }
-    .main-interests{
+
+    .main-interests {
         margin-top: 40px;
 
     }
-    .main-icon{
+
+    .main-icon {
         margin-top: 30px;
     }
-    
+
 }
 
 .text-row {
@@ -261,24 +273,25 @@
 }
 
 
-.main-icon > i {
-    font-size: 30px;    
+.main-icon>i {
+    font-size: 30px;
     margin-top: 27px;
     margin-left: 25px;
 
     color: rgba(14, 238, 208, 0.8);
 
 }
-.icon-margin{
+
+.icon-margin {
     margin-left: 30px !important;
 }
 
 .main-icon:hover {
     background-image: linear-gradient(to right, var(--primary), var(--secondary));
-    
+
 }
 
-.icon-text:hover{
+.icon-text:hover {
     visibility: visible !important;
 }
 
@@ -287,68 +300,101 @@
 
 }
 
-.main-section2{
+.main-section2 {
     margin-top: 40px !important;
     padding: 40px !important;
     text-align: center !important;
 }
-.sec-2{
+
+.sec-2 {
     background-color: #313741 !important;
 }
-.sec2-icon{
+
+.sec2-icon {
     color: rgba(14, 238, 208, 0.8);
 }
+
 /* .sec-2-p{
     padding-left: 150px !important;
     padding-right: 150px !important;
 } */
 
-.sec3-card-header{
+.sec3-card-header {
     width: 150px !important;
-    
+
 }
-.sec3-card{
+
+.sec3-card {
     width: 100%;
 }
 
-.skill-div{
+.skill-div {
     display: flex;
-    
+
     justify-content: space-between;
 }
-.abc{
+
+.abc {
     background-image: linear-gradient(to right, var(--primary), var(--secondary));
 }
-.portfolio-card{
+
+.portfolio-card {
 
     width: 300px !important;
-    height: 230px !important; 
-     margin: auto !important;
-     background: linear-gradient(to right, var(--secondary), var(--primary));
+    height: 230px !important;
+    margin: auto !important;
+    background: linear-gradient(to right, var(--secondary), var(--primary));
     color: black;
+
 }
 
-.portfolio-card1{
+.portfolio-card1 {
 
-    width: 300px !important;
-    height: 350px !important; 
-     margin: auto !important;
-     background: linear-gradient(to right, var(--secondary), var(--primary));
+    width: 240px !important;
+    height: 350px !important;
+    margin: auto !important;
+    background: linear-gradient(to right, var(--secondary), var(--primary));
     color: black;
+
 }
 
-.portfolio-card2{
+.portfolio-card2 {
 
     width: 400px !important;
-    height: 300px !important; 
-     margin: auto !important;
-     background: linear-gradient(to right, var(--secondary), var(--primary));
+    height: 300px !important;
+    margin: auto !important;
+    background: linear-gradient(to right, var(--secondary), var(--primary));
     color: black;
-}
-.portfolio-image2{
-    height: 250px !important;
-}
-.portfolio-image3{
-    height: 335px !important;
+
 }
 
+.opacity-0:hover {
+    opacity: 1 !important;
+    transition: 1s !important;
+}
+
+.cyan-color{
+    background: linear-gradient(to right, var(--secondary), var(--primary)),
+    url(./images/background-imges/bkg-1.jpg) no-repeat center center / cover;
+}
+
+.portfolio-image2 {
+    height: 250px !important;
+}
+
+.portfolio-image3 {
+    height: 335px !important;
+}
+.let-talk{
+    text-decoration: underline var(--primary) !important;
+}
+.form-label{
+    color: var(--secondary);
+}
+.form-txtarea{
+    height: 200px !important;
+}
+.border-custom{
+    
+    border-top: 1px solid var(--secondary) !important;
+}
