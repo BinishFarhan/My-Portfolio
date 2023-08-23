@@ -321,10 +321,34 @@
 }
 .portfolio-card{
 
-    /* width: 250px !important;
-    height: 130px !important; */
-    /* margin: auto !important;
-    background-color: grey !important;
-    color: ; */
+    width: 300px !important;
+    height: 230px !important; 
+     margin: auto !important;
+     background: linear-gradient(to right, var(--secondary), var(--primary));
+    color: black;
+}
+
+.portfolio-card1{
+
+    width: 300px !important;
+    height: 350px !important; 
+     margin: auto !important;
+     background: linear-gradient(to right, var(--secondary), var(--primary));
+    color: black;
+}
+
+.portfolio-card2{
+
+    width: 400px !important;
+    height: 300px !important; 
+     margin: auto !important;
+     background: linear-gradient(to right, var(--secondary), var(--primary));
+    color: black;
+}
+.portfolio-image2{
+    height: 250px !important;
+}
+.portfolio-image3{
+    height: 335px !important;
 }
 
